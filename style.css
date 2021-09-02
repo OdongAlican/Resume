@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-division-section {
+    display: flex;
+    margin: 0 300px;
+    border: 1px solid lightgray;
+}
+
+.left-page-section {
+    background-color: darkblue;
+    flex: 1;
+}
+
+.right-page-section {
+    flex: 4;
+}
+
+.name-section {
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 20px 0;
+}
+
+.profession-section {
+    color:lightgray;
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight:  bold;
+}
+
+.contact-header {
+    background-color: #0E265E;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.contact-information {
+    padding: 10px 0;
+}
+
+.address-section {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.address-section-detail {
+    font-size: 12px;
+    color: lightgray;
+    padding: 3px 20px;
+}
+
+.address-section-lower {
+    padding: 8px 20px;
+    color: lightgray;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.right-page-section {
+    padding: 20px 20px 0 20px;
+}
+
+.description-section {
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-start;
+    color: #444;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+
+.work-history-header {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+    font-weight: bold;
+    color: #15378B;
+}
+
+.first-history {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.left-first-history {
+    font-size: 13px;
+    padding: 20px 10px;
+    flex: 1;
+}
+
+.right-first-history {
+    font-size: 12px;
+    padding: 20px 0 0;
+    flex: 7;
+}
+
+.history-header {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.company-header {
+    font-size: 13px;
+    color: #444;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.history-list-section {
+    padding-left: 20px;
+}
+
+.history-list-section li {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #444;
+}
+
+li{
+    line-height: 20px;
+}
+
+.history-header span {
+    color: #777;
+    font-size: 14px;
+}
+
+.lower-details-section div {
+    background-color: #15378B;
+    padding: 5px;
+    color: #fff;
+    margin: 0;
+}
+
+.lower-details-header {
+    margin-bottom: 10px;
+}
+
+.copyright-section {
+    font-size: 11px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 2px;
+}
