@@ -12,7 +12,7 @@
 }
 
 .left-page-section {
-    background-color: darkblue;
+    background-color: #2B2B2B;
     flex: 1;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .contact-header {
-    background-color: #0E265E;
+    background-color: #C0C0C0;
     padding: 5px 20px;
     color: #fff;
     font-weight: 600;
